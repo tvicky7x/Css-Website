@@ -1,0 +1,159 @@
+/******************* Global Value ******************************/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+h1 {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #023047;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #219EBC;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #219EBC;
+}
+hr {
+    border-style: dotted;
+    height: 10px;
+    border: none;
+    border-top: dotted;
+    border-width: 8px;
+    width: 5%;
+    border-color: #707779;
+    margin: 0 auto;
+}
+
+/********************* Hero Website ****************************/
+.hero {
+    background-color: #8ecae6;
+    padding-top: 200px;
+    position: relative;
+    
+}
+
+.hero-title {
+    margin-top: 0;
+    font-size: 5.625rem;
+    margin-bottom: 0;
+    color: #023047;
+}
+
+.hero-phara {
+
+    font-size: 1.5rem;
+    color: #023047;
+    margin-top: 5px;
+}
+
+/************************ Image Selector *********************/
+.cloud {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+}
+
+.c1 {
+    right: 313px;
+    top: 142px;
+}
+
+.c2 {
+    top: 270px;
+    left: 288px;
+}
+
+.mount {
+    margin-top: 40px;
+    vertical-align: bottom;
+}
+
+/************************** Profile section **************************/
+.profile {
+    padding-top: 70px;
+    width: 40%;  
+    margin: 0 auto; 
+    padding-bottom: 70px; 
+}
+.proimg {
+  width: 25%;
+}
+
+/************************** Skill Section ***************************/
+.skill-row {
+    width: 50%;
+    margin: 90px auto;
+    text-align: left;
+    line-height: 2;
+}
+.coding {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.nature {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/******************************* Contact Section **************************/
+.contact-me {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+.btn-link {
+    text-decoration: none;
+    font-weight: 700;    
+    font-size: 16px;
+    color: white;
+    
+}
+.btn {
+    background: linear-gradient(#8ECAE6, #219EBC);
+    border-radius: 5px;
+    padding: 10px 18px;
+    border: none;
+    margin-top: 20px;    
+}
+.btn:hover {
+    background: linear-gradient(#FFB703, #FB8500);
+}
+/**************************** Footer Section ************************/
+.bottom-container {
+    background-color: #023047;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foot-level {
+    margin-bottom: 0;
+    color: white;
+    font-weight: 200;
+    margin-top: 30px;
+}
+.footer-link {
+    text-decoration: none;
+    font-weight: 700;
+}
+.mid {
+    margin: 0 40px;
+}
